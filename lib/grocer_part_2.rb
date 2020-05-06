@@ -1,13 +1,16 @@
 require_relative './part_1_solution.rb'
 
 def apply_coupons(cart, coupons)
-  
+  index = 0
+  while index < coupons.length
+    cart_item = find_item_by_name_in_collection(cart[index][:item], cart)
+    
+    index += 1
+  end
 end
 
 def apply_clearance(cart)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This method **should** update cart
+
 end
 
 def checkout(cart, coupons)
