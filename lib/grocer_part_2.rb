@@ -33,6 +33,8 @@ def apply_clearance(cart)
     if cart[index][:clearance] == true
       cart[index][:price] * 0.8
       new_cart << cart[index]
+    elsif cart[index][:clearance] == false
+      new_cart << cart[index]
     end
     index += 1
   end
