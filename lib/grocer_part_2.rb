@@ -4,7 +4,7 @@ def apply_coupons(cart, coupons)
   index = 0
   while index < coupons.length
     cart_item = find_item_by_name_in_collection(cart[index][:item], cart)
-    
+    coupon_item_name = ""
     index += 1
   end
 end
