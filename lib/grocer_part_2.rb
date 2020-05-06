@@ -47,6 +47,6 @@ def checkout(cart, coupons)
   index = 0
   while index < final_cart.length
     total += final_cart[index]
+    index += 1
   end
-  index += 1
 end
