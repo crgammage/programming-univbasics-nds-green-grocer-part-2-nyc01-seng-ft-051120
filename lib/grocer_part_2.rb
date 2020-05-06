@@ -30,7 +30,8 @@ def apply_clearance(cart)
   new_cart = []
   index = 0
   while index < cart.length
-
+    if cart[index][:clearance] == true
+      
   end
 end
 
