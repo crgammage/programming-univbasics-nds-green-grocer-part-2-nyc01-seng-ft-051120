@@ -28,6 +28,10 @@ end
 
 def apply_clearance(cart)
   new_cart = []
+  index = 0
+  while index < cart.length
+
+  end
 end
 
 def checkout(cart, coupons)
